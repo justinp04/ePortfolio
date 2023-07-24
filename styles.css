@@ -27,6 +27,7 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
+    z-index: 1; /*To solve the issue of the text from the projects going over the bar*/
   }
   
   nav > ul {
