@@ -24,6 +24,9 @@
     background: var(--nav-bar-color);
     position: fixed;
     border-bottom: 1px solid var(--font-color);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
   }
   
   nav > ul {
@@ -47,6 +50,12 @@
   nav > ul > li > a {
     color: var(--font-color);
     text-decoration: none;
+  }
+
+  #logo {
+    max-height: 40px;
+    width: auto;
+    padding: 0px 11px;
   }
   
   /* General styling for major sections */
