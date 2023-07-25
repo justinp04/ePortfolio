@@ -81,7 +81,7 @@
 
   .project-grid {
     display: grid;
-    margin: 50px 0px;
+    padding: 50px 0px;
   }
 
   .project-tile {
@@ -140,6 +140,10 @@
   .line {
     width: 20vw;
     background-color: var(--font-color);
+  }
+
+  .enlarge {
+    scale: 1.3;
   }
 
   /* Media queries */
