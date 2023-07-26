@@ -127,6 +127,7 @@
     display: flex;
     justify-content: center;
     padding-top: 40vh;
+    text-align: center;
   }
   
   .line {
@@ -145,4 +146,10 @@
       align-items: center;
       flex-wrap: wrap;
     }
+    
+    .contacts-links {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
   }
