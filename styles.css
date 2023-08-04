@@ -40,17 +40,14 @@
     align-items: center;
   }
   
-  nav > ul > li {
-    padding: 1rem;
-  }
-  
-  nav > ul > li:hover {
-    background-color: #1E3F20;
-  }
-  
-  nav > ul > li > a {
+  nav > ul > a {
     color: var(--font-color);
     text-decoration: none;
+    padding: 1rem;
+  }
+
+  nav > ul > a:hover {
+    background-color: #1E3F20;
   }
 
   #logo {
@@ -75,13 +72,25 @@
   }
   
   /* Projects section styling */
+  #projects > div {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #projects > div > h2 {
+    padding-top: 0 !important;
+  }
+
   #projects {
     background: var(--section-color2);
   }
 
   .project-grid {
     display: grid;
-    padding: 50px 0px;
+    padding: 75px 0px;
   }
 
   .project-tile {
