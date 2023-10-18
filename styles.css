@@ -91,6 +91,9 @@
   .project-grid {
     display: grid;
     padding: 75px 0px;
+    grid-template-columns: repeat(4, 300px);
+    gap: 50px 40px;
+    justify-content: center;
   }
 
   .project-tile {
