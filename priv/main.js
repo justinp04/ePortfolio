@@ -50,6 +50,6 @@ document.addEventListener("DOMContentLoaded", function() {
     };
 
     document.getElementById("yes-button").onclick = function() {
-        window.location.href = "/yes.html";
+        window.location.href = "/priv/yes.html";
     };
 });
